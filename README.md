@@ -59,15 +59,16 @@ This project utilizes `efficientnet_b0` from torchvision library to leverage tra
 
 ## Results
 - The model achieves high accuracy on both the training and test datasets.
--classification Report:
-              precision    recall  f1-score   support
+  
+| Class         | Precision | Recall | F1-Score | Support |
+|---------------|-----------|--------|----------|---------|
+| **Caries**    | 0.96      | 0.99   | 0.97     | 204     |
+| **Gingivitis**| 0.98      | 0.96   | 0.97     | 204     |
+| **Accuracy**  |           |        | 0.97     | 408     |
+| **Macro Avg** | 0.97      | 0.97   | 0.97     | 408     |
+| **Weighted Avg** | 0.97   | 0.97   | 0.97     | 408     |
 
-      Caries       0.96      0.99      0.97       204
-  Gingivitis       0.98      0.96      0.97       204
 
-    accuracy                           0.97       408
-   macro avg       0.97      0.97      0.97       408
-weighted avg       0.97      0.97      0.97       408
 
 - Visualization of loss and accuracy trends is provided in the notebook.
 
