@@ -70,7 +70,7 @@ This project utilizes `efficientnet_b0` from torchvision library to leverage tra
 
 
 
-- Visualization of loss and accuracy trends is provided in the notebook.
+- Further Visualization of loss and accuracy trends is provided in the notebook.
 
 ## Future Work
 - Expand the dataset with more diverse samples to improve robustness.
